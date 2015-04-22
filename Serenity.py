@@ -166,7 +166,7 @@ if __name__ == "__main__":
         if counter % 5 == 0:
             print 'Saving camera image ' + imgName
             try:
-                camera.capture(imgName)
+                camera.capture(imgName, resize=[1920,1080])
             except Exception as e:
                 print e
         counter += 1 # Increment sentence ID for next transmission
