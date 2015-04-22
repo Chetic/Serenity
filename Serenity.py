@@ -121,7 +121,7 @@ def convert(position_data, orientation):
             position = 0 - position 
         return position
 
-# Returns temperature value in celsius on the format ",25.12", or "" if there is an error
+# Returns temperature value in celsius on the format "25.1", or "0.0" if there is an error
 def getTemperature():
     try:
         bus = smbus.SMBus(1)
@@ -129,10 +129,10 @@ def getTemperature():
         msb = data[0]
         lsb = data[1]
         temp1dec = (((msb << 8) | lsb) >> 4) * 0.0625
-        return ",%.1f" % temp1dec
+        return "%.1f" % temp1dec
     except Exception:
 	print "Error reading temperature"
-        return ""
+        return "0.0"
 
 # Calculate CRC-CCITT checksum
 def getCrc(datastr):
@@ -155,7 +155,7 @@ if __name__ == "__main__":
         rfdatastr = callsign
         rfdatastr += "," + str(counter)
         rfdatastr += "," + getGpsPosAndTime()
-        rfdatastr += getTemperature()
+        rfdatastr += "," + getTemperature()
         rfdatastr += "*" + getCrc(rfdatastr) + "\n"
         rfdatastr = "$$" + rfdatastr
         sendRF(rfdatastr)
