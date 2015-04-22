@@ -1,0 +1,124 @@
+Camera is not enabled. Try running 'sudo raspi-config' and ensure that the camera has been enabled.
+Sent UBX Command:  181 98 6 36 36 0 255 255 6 3 0 0 0 0 16 39 0 0 5 0 250 0 250 0 100 0 44 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22 220 
+RMC sentence read: $GPRMC,,V,,,,,,,,,,N*53
+
+GGA sentence read: $GPGGA,,,,,,0,00,99.99,,,,,,*48
+
+No GPS position fix.
+Sent over RF:  $$Serenity,,0,,,00,0,INVALID,24.6*1A72
+
+///  image-0.jpg  ///  0  -  0
+Unable to capture image /home/pi/image-0.jpg
+Successfully saved image image-0.jpg
+Sent UBX Command:  181 98 6 36 36 0 255 255 6 3 0 0 0 0 16 39 0 0 5 0 250 0 250 0 100 0 44 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22 220 
+RMC sentence read: $GPRMC,,V,,,,,,,,,,N*53
+
+GGA sentence read: $GPGGA,,,,,,0,00,99.99,,,,,,*48
+
+No GPS position fix.
+Error reading temperature
+Sent over RF:  $$Serenity,,1,,,00,0,INVALID*E7A7
+
+///  image-1.jpg  ///  1  -  1
+Sent UBX Command:  181 98 6 36 36 0 255 255 6 3 0 0 0 0 16 39 0 0 5 0 250 0 250 0 100 0 44 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22 220 
+RMC sentence read: $GPRMC,,V,,,,,,,,,,N*53
+
+GGA sentence read: $GPGGA,,,,,,0,00,99.99,,,,,,*48
+
+No GPS position fix.
+Sent over RF:  $$Serenity,,2,,,00,0,INVALID,24.5*91DC
+
+///  image-2.jpg  ///  2  -  2
+Sent UBX Command:  181 98 6 36 36 0 255 255 6 3 0 0 0 0 16 39 0 0 5 0 250 0 250 0 100 0 44 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22 220 
+RMC sentence read: $GPRMC,,V,,,,,,,,,,N*53
+
+GGA sentence read: $GPGGA,,,,,,0,00,99.99,,,,,,*48
+
+No GPS position fix.
+Sent over RF:  $$Serenity,,3,,,00,0,INVALID,24.5*442A
+
+///  image-3.jpg  ///  3  -  3
+Sent UBX Command:  181 98 6 36 36 0 255 255 6 3 0 0 0 0 16 39 0 0 5 0 250 0 250 0 100 0 44 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22 220 
+RMC sentence read: $GPRMC,,V,,,,,,,,,,N*53
+
+GGA sentence read: $GPGGA,,,,,,0,00,99.99,,,,,,*48
+
+No GPS position fix.
+Sent over RF:  $$Serenity,,4,,,00,0,INVALID,24.5*4DAA
+
+///  image-4.jpg  ///  4  -  4
+Sent UBX Command:  181 98 6 36 36 0 255 255 6 3 0 0 0 0 16 39 0 0 5 0 250 0 250 0 100 0 44 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22 220 
+RMC sentence read: $GPRMC,,V,,,,,,,,,,N*53
+
+GGA sentence read: $GPGGA,,,,,,0,00,99.99,,,,,,*48
+
+No GPS position fix.
+Sent over RF:  $$Serenity,,5,,,00,0,INVALID,24.5*985C
+
+///  image-5.jpg  ///  5  -  0
+Unable to capture image /home/pi/image-5.jpg
+Successfully saved image image-5.jpg
+Sent UBX Command:  181 98 6 36 36 0 255 255 6 3 0 0 0 0 16 39 0 0 5 0 250 0 250 0 100 0 44 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22 220 
+RMC sentence read: $GPRMC,,V,,,,,,,,,,N*53
+
+GGA sentence read: $GPGGA,,,,,,0,00,99.99,,,,,,*48
+
+No GPS position fix.
+Sent over RF:  $$Serenity,,6,,,00,0,INVALID,24.5*F667
+
+///  image-6.jpg  ///  6  -  1
+Sent UBX Command:  181 98 6 36 36 0 255 255 6 3 0 0 0 0 16 39 0 0 5 0 250 0 250 0 100 0 44 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22 220 
+RMC sentence read: $GPRMC,,V,,,,,,,,,,N*53
+
+GGA sentence read: $GPGGA,,,,,,0,00,99.99,,,,,,*48
+
+No GPS position fix.
+Sent over RF:  $$Serenity,,7,,,00,0,INVALID,24.5*2391
+
+///  image-7.jpg  ///  7  -  2
+Sent UBX Command:  181 98 6 36 36 0 255 255 6 3 0 0 0 0 16 39 0 0 5 0 250 0 250 0 100 0 44 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22 220 
+RMC sentence read: $GPRMC,,V,,,,,,,,,,N*53
+
+GGA sentence read: $GPGGA,,,,,,0,00,99.99,,,,,,*48
+
+No GPS position fix.
+Sent over RF:  $$Serenity,,8,,,00,0,INVALID,24.5*E567
+
+///  image-8.jpg  ///  8  -  3
+Sent UBX Command:  181 98 6 36 36 0 255 255 6 3 0 0 0 0 16 39 0 0 5 0 250 0 250 0 100 0 44 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22 220 
+RMC sentence read: $GPRMC,,V,,,,,,,,,,N*53
+
+GGA sentence read: $GPGGA,,,,,,0,00,99.99,,,,,,*48
+
+No GPS position fix.
+Sent over RF:  $$Serenity,,9,,,00,0,INVALID,24.5*3091
+
+///  image-9.jpg  ///  9  -  4
+Sent UBX Command:  181 98 6 36 36 0 255 255 6 3 0 0 0 0 16 39 0 0 5 0 250 0 250 0 100 0 44 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22 220 
+RMC sentence read: $GPRMC,,V,,,,,,,,,,N*53
+
+GGA sentence read: $GPGGA,,,,,,0,00,99.99,,,,,,*48
+
+No GPS position fix.
+Sent over RF:  $$Serenity,,10,,,00,0,INVALID,24.5*8357
+
+///  image-10.jpg  ///  10  -  0
+Unable to capture image /home/pi/image-10.jpg
+Successfully saved image image-10.jpg
+Sent UBX Command:  181 98 6 36 36 0 255 255 6 3 0 0 0 0 16 39 0 0 5 0 250 0 250 0 100 0 44 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22 220 
+RMC sentence read: $GPRMC,,V,,,,,,,,,,N*53
+
+GGA sentence read: $GPGGA,,,,,,0,00,99.99,,,,,,*48
+
+No GPS position fix.
+Sent over RF:  $$Serenity,,11,,,00,0,INVALID,24.5*56A1
+
+///  image-11.jpg  ///  11  -  1
+Sent UBX Command:  181 98 6 36 36 0 255 255 6 3 0 0 0 0 16 39 0 0 5 0 250 0 250 0 100 0 44 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22 220 
+RMC sentence read: $GPRMC,,V,,,,,,,,,,N*53
+
+GGA sentence read: $GPGGA,,,,,,0,00,99.99,,,,,,*48
+
+No GPS position fix.
+Sent over RF:  $$Serenity,,12,,,00,0,INVALID,24.5*389A
+

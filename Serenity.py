@@ -159,12 +159,14 @@ if __name__ == "__main__":
         rfdatastr = "$$" + rfdatastr
         sendRF(rfdatastr)
         imgName = 'image-'+str(counter)+'.jpg'
-	print '/// ', imgName, ' /// ', counter, ' - ', counter % 5
         while os.path.isfile(imgName):
             counter += 5
             imgName = 'image-'+str(counter)+'.jpg'
         if counter % 5 == 0:
-            camera.capture('/home/pi/' + imgName)
-            print 'Successfully saved image ' + imgName
+            print 'Saving camera image ' + imgName
+            try:
+                camera.capture('/home/pi/' + imgName)
+            except Exception as e:
+                print e
         counter += 1 # Increment sentence ID for next transmission
         time.sleep(1)
