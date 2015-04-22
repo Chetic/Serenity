@@ -100,8 +100,8 @@ def getGpsPosAndTime():
             print "GPS position fixed!"
         else:
             print "No GPS position fix."
-            return str(time) + ',' + str(counter) + ',' + str(latitude) + ',' + str(longitude) + ',' + str(satellites) + ',' + str(altitude) + ',INVALID'
-        return str(time) + ',' + str(counter) + ',' + str(latitude) + ',' + str(longitude) + ',' + str(satellites) + ',' + str(altitude)
+            return str(time) + ',' + str(latitude) + ',' + str(longitude) + ',' + str(altitude) + ',' + str(satellites) + ',NOFIX'
+        return str(time) + ',' + str(latitude) + ',' + str(longitude) + ',' + str(altitude) + ',' + str(satellites)
     except Exception:
 	raise
         return 'GPSCRASH:' + NMEA_sentence # Hopefully transmit something useful
@@ -153,19 +153,20 @@ if __name__ == "__main__":
         sendUBX(setNav)
         time.sleep(0.5)
         rfdatastr = callsign
+        rfdatastr += "," + str(counter)
         rfdatastr += "," + getGpsPosAndTime()
         rfdatastr += getTemperature()
         rfdatastr += "*" + getCrc(rfdatastr) + "\n"
         rfdatastr = "$$" + rfdatastr
         sendRF(rfdatastr)
-        imgName = 'image-'+str(counter)+'.jpg'
+        imgName = '/home/pi/Serenity/image-'+str(counter)+'.jpg'
         while os.path.isfile(imgName):
             counter += 5
             imgName = 'image-'+str(counter)+'.jpg'
         if counter % 5 == 0:
             print 'Saving camera image ' + imgName
             try:
-                camera.capture('/home/pi/' + imgName)
+                camera.capture(imgName)
             except Exception as e:
                 print e
         counter += 1 # Increment sentence ID for next transmission
